@@ -1,4 +1,4 @@
-# Sistema de Carnetizacion (Front-End)
+# Chronos (Front-End) - Beta
 
 ## Indice Tematico
  1. [Instalacion](#0)
