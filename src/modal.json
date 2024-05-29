@@ -1,0 +1,31 @@
+{
+  "dni": 123456789,
+  "copias": 2,
+  "response": 200,
+  "carnet": [
+    {
+      "fecha_de_generacion": "10-09-2023",
+      "ultima_descarga": "10-09-2023",
+      "fecha_inicio": "2023-11-30",
+      "fecha_final": "2023-11-30",
+      "perfil": "estudiante",
+      "fuente": "educatic",
+      "programa": "ingenieria",
+      "evento": "",
+      "url": "www.algo.com/din/carnet",
+      "estado": "activo"
+    },
+    {
+      "fecha_de_generacion": "10-09-2023",
+      "ultima_descarga": "10-09-2023",
+      "fecha_inicio": "2023-11-30",
+      "fecha_final": "2023-11-30",
+      "perfil": "invitado",
+      "fuente": "archivo/convocatoria.xls",
+      "programa": "",
+      "evento": "conversemos",
+      "url": "www.algo.com/din/carnet",
+      "estado": "bloqueado"
+    }
+  ]
+}

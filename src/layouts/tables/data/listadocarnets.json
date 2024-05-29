@@ -1,0 +1,317 @@
+{
+    "response": 200,
+    "pages": 2,
+    "size":20,
+    "carnets": [
+        {
+            "id": 1,
+            "dni": "123456789A",
+            "nombre": "Juan",
+            "apellido": "Pérez",
+            "fecha_de_generacion": "2023-09-12",
+            "ultima_descarga": "2023-09-12",
+            "vigencia": "2023-12-31",
+            "copias": 5
+        },
+        {
+            "id": 2,
+            "dni": "987654321B",
+            "nombre": "María",
+            "apellido": "Gómez",
+            "fecha_de_generacion": "2023-09-10",
+            "ultima_descarga": "2023-09-10",
+            "vigencia": "2023-11-30",
+            "copias": 3
+        },
+        {
+            "id": 3,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id": 4,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id": 5,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id": 6,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id": 7,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id": 8,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id": 9,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id": 10,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id":11,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id": 12,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id": 13,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id": 15,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id": 15,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id": 16,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id": 17,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id": 18,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id": 19,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id":20,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id":21,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id":22,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id":23,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id":24,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id":25,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id":26,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id":27,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id":28,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id":29,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id":30,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        },
+        {
+            "id":31,
+            "dni": "555555555C",
+            "nombre": "Luis",
+            "apellido": "Hernández",
+            "fecha_de_generacion": "2023-09-08",
+            "ultima_descarga": "2023-09-08",
+            "vigencia": "2023-10-31",
+            "copias": 2
+        }
+    ]
+}
