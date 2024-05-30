@@ -49,7 +49,7 @@ export default function UsersCard() {
                 dark
               >
                 <MDTypography variant="h3" color="white">
-                  Listado de Roles
+                  Listado de Cargos
                 </MDTypography>
               </MDBox>
               <MDBox pt={3}>

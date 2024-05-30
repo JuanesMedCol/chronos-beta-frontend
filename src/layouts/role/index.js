@@ -36,7 +36,7 @@ export default function Role() {
                 dark
               >
                 <MDTypography variant="h3" color="white">
-                  Listado de roles
+                  Listado de Cargos
                 </MDTypography>
               </MDBox>
               <MDBox>

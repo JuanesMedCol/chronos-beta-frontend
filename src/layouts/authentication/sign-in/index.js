@@ -43,12 +43,49 @@ import bgImage from "assets/images/login.jpg";
 // Para el login con Google
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import Google from "./google";
-const googleid = "729422153813-ihs2v5sduv9i2ulu78kp9edk21u0lcpr.apps.googleusercontent.com";
+//const googleid = ".apps.googleusercontent.com";
+
+//Login Service
+
+export const LoginService = async (payload) => {
+  try {
+    const response = await fetch(`${process.env.REACT_APP_API_URL}/login`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    });
+    const result = await response.json();
+    const { success, code } = result;
+    if (success === true) {
+      const {
+        payload: { data },
+      } = result;
+      console.log(payload);
+      return { data };
+    } else if (success === false) {
+      const message = "Error del servidor al realizar la solicitud";
+      const status = false;
+      return { status, message };
+      //throw new Error(`Error del servidor al realizar la solicitud`);
+    }
+  } catch (error) {
+    console.error("Error al obtener datos:", error);
+    const message = "Error del servidor al realizar la solicitud";
+    const status = false;
+    return { status, message };
+  }
+};
+
+const submitLogin = async (e) => {
+  e.preventDefault();
+  await LoginService();
+  console.log("hola");
+};
+
 
 function Basic() {
-  const [rememberMe, setRememberMe] = useState(false);
-
-  const handleSetRememberMe = () => setRememberMe(!rememberMe);
 
   return (
     <BasicLayout image={bgImage}>
@@ -65,14 +102,29 @@ function Basic() {
           textAlign="center"
         >
           <MDTypography variant="h4" fontWeight="medium" color="light" mt={1}>
-            Bienvenido a Chronos<br/>
-             - Sistema de Gestion de Tiempo -
+            Bienvenido a Chronos<br />
+            - Sistema de Gestion de Tiempo -
           </MDTypography>
-          <Grid container justifyContent="center" sx={{ mt: 1, mb: 1, width: "100%" }}>
+          {/*<Grid container justifyContent="center" sx={{ mt: 1, mb: 1, width: "100%" }}>
             <GoogleOAuthProvider justifyContent="center" sx={{ width: "100%" }} clientId={googleid}>
               <Google />
             </GoogleOAuthProvider>
-          </Grid>
+          </Grid>*/}
+        </MDBox>
+        <MDBox pt={4} pb={3} px={3}>
+          <MDBox component="form" role="form" onSubmit={submitLogin}>
+              <MDBox mb={2}>
+                <MDInput type="email" label="Email" fullWidth />
+              </MDBox>
+              <MDBox mb={2}>
+                <MDInput type="password" label="Password" fullWidth />
+              </MDBox>
+              <MDBox mt={4} mb={1}>
+                <MDButton type="submit" variant="gradient" color="success" fullWidth>
+                  Ingresar
+                </MDButton>
+              </MDBox>
+          </MDBox>
         </MDBox>
       </Card>
     </BasicLayout>

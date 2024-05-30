@@ -1,0 +1,38 @@
+export const LoginService = async (prueba) => {
+    try {
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/login`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(prueba),
+      });
+      const result = await response.json();
+      console.log(result);
+      const { success, data } = result;
+      if (success === true) {
+        console.log(result);
+      } else if (success === false) {
+        console.log(result);
+        const message = "Error del servidor al realizar la solicitud";
+        const status = false;
+        return { status, message };
+      }
+    } catch (error) {
+      console.error("Error al obtener datos:", error);
+      const message = "Error del servidor al realizar la solicitud";
+      const status = false;
+      return { status, message };
+    }
+  };
+
+  const submitLogin = async (e) => {
+    e.preventDefault();
+    const convertedObject = convertValuesToString(newData);
+    console.log("Formulario enviado:", newData);
+    console.log("Formulario convertido a string:", convertedObject);
+    await UserLogin(newData);
+    console.log("hola");
+  };
+
+  const closeUserCreate = () => setOpenCreate(false);

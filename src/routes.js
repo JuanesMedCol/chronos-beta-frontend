@@ -69,10 +69,10 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Roles",
-    key: "roles",
+    name: "Cargos",
+    key: "cargos",
     icon: <Icon fontSize="small">group</Icon>,
-    route: "/role",
+    route: "/jobs",
     component: <UsersCard />,
   },
   {
