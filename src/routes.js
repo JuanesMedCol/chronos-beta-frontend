@@ -36,7 +36,6 @@ Coded by www.creative-tim.com
 */
 
 // Material Dashboard 2 React layouts
-import Notifications from "layouts/notifications";
 import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
@@ -58,16 +57,6 @@ const routes = [
     icon: <Icon fontSize="small">group</Icon>,
     route: "/jobs",
     component: <UsersCard />,
-  },
-  {
-    key: "billing",
-    route: "/billing",
-    component: <Billing />,
-  },
-  {
-    key: "notification",
-    route: "/notifications",
-    component: <Notifications />,
   },
   {
     key: "profile",
