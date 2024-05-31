@@ -36,18 +36,12 @@ Coded by www.creative-tim.com
 */
 
 // Material Dashboard 2 React layouts
-import Dashboard from "layouts/dashboard";
-import Tables from "layouts/tables";
-import Billing from "layouts/billing";
-import RTL from "layouts/rtl";
 import Notifications from "layouts/notifications";
 import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
-import UsersCarnet from "layouts/user_carnet";
 import UsersCard from "layouts/user_card";
 import Bienvenida from "layouts/welcome";
-import CardType from "layouts/card_type";
 
 // @mui icons
 import Icon from "@mui/material/Icon";
@@ -56,16 +50,6 @@ const routes = [
   {
     route: "/bienvenida",
     component: <Bienvenida />,
-  },
-  {
-    key: "dashboard",
-    route: "/dashboard",
-    component: <Dashboard />,
-  },
-  {
-    key: "table",
-    route: "/tables",
-    component: <Tables />,
   },
   {
     type: "collapse",
@@ -79,11 +63,6 @@ const routes = [
     key: "billing",
     route: "/billing",
     component: <Billing />,
-  },
-  {
-    key: "rtl",
-    route: "/rtl",
-    component: <RTL />,
   },
   {
     key: "notification",
@@ -104,33 +83,6 @@ const routes = [
     key: "sign-up",
     route: "/auth/sign-up",
     component: <SignUp />,
-  },
-  {
-    /*
-    type: "collapse",
-    name: "carnets",
-    key: "carnet",
-    icon: <Icon fontSize="small">assignment</Icon>,
-    route: "/carnets",
-    component: <UserListCarnet />,*/
-  },
-
-  {
-    /*
-    type: "collapse",
-    name: "Modal",
-    key: "mcarnet",
-    icon: <Icon fontSize="small">login</Icon>,
-    route: "/index",
-    component: <ModalCarnet />,*/
-  },
-  {
-    /*type: "collapse",
-    name: "Dcarnet",
-    key: "Dcarnet",
-    icon: <Icon fontSize="small">login</Icon>,
-    route: "/CarnetDownload",
-    component: <CarnetDownload />,*/
   },
 ];
 

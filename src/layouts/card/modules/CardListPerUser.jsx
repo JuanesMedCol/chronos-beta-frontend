@@ -48,7 +48,7 @@ export default function CardListPerUser({
           <MDBox
             mt={-7}
             color="white"
-            bgColor="dark"
+            bgColor="info"
             variant="gradient"
             borderRadius="lg"
             p={2}
