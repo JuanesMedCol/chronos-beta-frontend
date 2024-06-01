@@ -44,12 +44,21 @@ import Bienvenida from "layouts/welcome";
 
 // @mui icons
 import Icon from "@mui/material/Icon";
+import Employee from "layouts/employee_card";
 
 const routes = [
   {
     route: "/bienvenida",
     component: <Bienvenida />,
-  },
+  }, 
+  {
+    type: "collapse",
+    name: "Principal",
+    key: "empleados",
+    icon: <Icon fontSize="small">group</Icon>,
+    route: "/principal",
+    component: <Employee/>,
+  }, 
   {
     type: "collapse",
     name: "Cargos",
