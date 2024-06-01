@@ -41,10 +41,11 @@ import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
 import UsersCard from "layouts/user_card";
 import Bienvenida from "layouts/welcome";
+import Stops from "layouts/stop";
 
 // @mui icons
 import Icon from "@mui/material/Icon";
-import Employee from "layouts/employee_card";
+import Homepage from "layouts/homepage";
 
 const routes = [
   {
@@ -53,11 +54,11 @@ const routes = [
   }, 
   {
     type: "collapse",
-    name: "Principal",
-    key: "empleados",
+    name: "Homepage",
+    key: "homepage",
     icon: <Icon fontSize="small">group</Icon>,
-    route: "/principal",
-    component: <Employee/>,
+    route: "/homepage",
+    component: <Homepage/>,
   }, 
   {
     type: "collapse",
@@ -66,6 +67,14 @@ const routes = [
     icon: <Icon fontSize="small">group</Icon>,
     route: "/jobs",
     component: <UsersCard />,
+  },
+  {
+    type: "collapse",
+    name: "Paradas",
+    key: "stops",
+    icon: <Icon fontSize="small">group</Icon>,
+    route: "/stops",
+    component: <Stops/>,
   },
   {
     key: "profile",
