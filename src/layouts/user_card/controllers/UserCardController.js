@@ -21,6 +21,7 @@ export function UserCardController() {
   const [isDisabled, setIsDisabled] = useState(false);
   const [isFormModified, setIsFormModified] = useState(false);
   const [recoveredData, setRecoveredData] = useState({});
+  
   const requestCardUsers = async (pageIndex) => {
     try {
       const result = await getCardUsers(pageIndex);
