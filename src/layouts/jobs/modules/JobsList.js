@@ -5,11 +5,9 @@ import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 import DataTable from "examples/Tables/DataTable";
 import React, { useEffect, useState } from "react";
-import PreviewOutlinedIcon from "@mui/icons-material/PreviewOutlined";
-import EditOutlinedIcon from "@mui/icons-material/EditOutlined";
 
-export default function UserCard({
-  dataCardUser,
+export default function JobsList({
+  handleList,
   error,
   pageIndexAndPageSize,
   entriesStart,
@@ -28,8 +26,8 @@ export default function UserCard({
             { Header: "creado", accessor: "create_at", width: "12%" },
             { Header: "actualizado", accessor: "updated_at", width: "12%" },
           ],
-          rows: dataCardUser
-            ? dataCardUser.map((user) => {
+          rows: handleList
+            ? handleList.map((user) => {
                 return {
                   name: user.name,
                   lastname: user.lastname,
@@ -37,10 +35,6 @@ export default function UserCard({
                   email: user.email,
                   create_at: new Date(user.created_at).toISOString().slice(0, 10),
                   updated_at: new Date(user.updated_at).toISOString().slice(0, 10),
-                  ver: (
-                    <>
-                    </>
-                  ),
                 };
               })
             : [],
@@ -62,7 +56,7 @@ export default function UserCard({
             {error}
           </MDTypography>
         </MDBox>
-      ) : dataCardUser?.length === 0 || !dataCardUser ? (
+      ) : handleList?.length === 0 || !handleList ? (
         <MDBox style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
           <MDTypography
             style={{ left: "20px", fontSize: "20px" }}
